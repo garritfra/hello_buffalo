@@ -1,0 +1,11 @@
+development:
+  dialect: "sqlite3"
+  database: /Users/garritfra/Documents/dev/go/src/github.com/garritfra/hello_buffalo_development.sqlite
+
+test:
+  dialect: "sqlite3"
+  database: /Users/garritfra/Documents/dev/go/src/github.com/garritfra/hello_buffalo_test.sqlite
+
+production:
+  dialect: "sqlite3"
+  database: /Users/garritfra/Documents/dev/go/src/github.com/garritfra/hello_buffalo_production.sqlite
