@@ -9,3 +9,11 @@ CREATE TABLE IF NOT EXISTS "widgets" (
 "created_at" DATETIME NOT NULL,
 "updated_at" DATETIME NOT NULL
 );
+CREATE TABLE IF NOT EXISTS "users" (
+"id" TEXT PRIMARY KEY,
+"first_name" TEXT NOT NULL,
+"last_name" TEXT NOT NULL,
+"user_name" TEXT NOT NULL,
+"created_at" DATETIME NOT NULL,
+"updated_at" DATETIME NOT NULL
+);
